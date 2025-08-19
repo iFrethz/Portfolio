@@ -3,28 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Francisco A</title>
-</head>
+    <meta name="descripción" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" 
+    rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Francisco A</title>
+  </head>
+
+<!-- Codigo -->
 <body>
     <main>
-        <!-- Sobre Mi -->
-        <div class="Sobre_Centro">
-            <h1>Hola, mi nombre es <span class="Sobremi_Nombre">Francisco</span>.</h1>
-            <h2>Estudiante en IPCHILE</h2>
-            <p>Tengo 22 años y cada dia aprendo más sobre programación
+    <!-- Sobre Mi -->
+        <div class="sobremi centro">
+            <h1>Hola, mi nombre es <span class="sobremi__nombre">Francisco.</span></h1>
+            <h2 class="sobremi__especialidad">Estudiante en IPCHILE</h2>
+            <p class="sobremi__desc">Tengo 22 años y cada dia aprendo más sobre programación
                 y tecnologias. Me gusta aprender de los demás y ayudar a
-                quienes lo necesitan
+                quienes lo necesitan.
             </p>
-            <h2>"La verdadera sabiduria reside en 
+            <h4>"La verdadera sabiduria reside en 
                 reconocer la propia ignorancia" 
                 - Socrates</h2>
+
+        <div class="sobremi__contacto">
+          <a
+            href="https://github.com/iFrethz"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
         </div>
-    </main>
+      </div>
+
+    <!-- Proyectos -->
+         <section id="proyecto" class="seccion_proyectos">
+            <h2>Proyectos</h2>
+
+            <h3>Almacen</h3>
+            <p>El proyecto consiste en el diseño, implementación 
+                y gestión de un almacén para una tienda, cuyo objetivo
+                principal es optimziar el control de inventario.</p>
+            <a href="https://github.com/iFrethz/AlmacenTienda"
+            aria-label="Codigó"
+            class="link link--icon"
+        >
+            <i aria-hidden="true" class="fab fa-github"></i>
+    </a>
+         </section>
+
+    <!-- Contacto -->
 
     <!-- Inferior -->
     <footer class="footer">
-        <a
-            href="https://github.com/iFrethz" >
+        <a>
             Todos los derechos reservados @ 2025
         </a>
     </footer>
