@@ -17,7 +17,7 @@
   </head>
 
 <!-- Codigo -->
-<body>
+<body class="light">
     <main>
     <!-- Sobre Mi -->
         <div class="sobremi centro">
@@ -27,9 +27,8 @@
                 y tecnologias. Me gusta aprender de los demás y ayudar a
                 quienes lo necesitan.
             </p>
-            <h4>"La verdadera sabiduria reside en 
-                reconocer la propia ignorancia" 
-                - Socrates</h2>
+            <h4><span class="sobremi__socrates">"La verdadera sabiduria reside en 
+                reconocer la propia ignorancia" - Socrates</span></h4>
 
         <div class="sobremi__contacto">
           <a
@@ -43,15 +42,22 @@
       </div>
 
     <!-- Proyectos -->
-         <section id="proyecto" class="seccion_proyectos">
-            <h2>Proyectos</h2>
+         <section id="proyectos" class="seccion_proyectos">
+            <h2 class="seccion__titulo">Proyectos</h2>
 
+            <div class="proyectos__grid">
+              <div class="proyecto">
             <h3>Almacen</h3>
-            <p>El proyecto consiste en el diseño, implementación 
+            <p class="proyecto__desc">El proyecto consiste en el diseño, implementación 
                 y gestión de un almacén para una tienda, cuyo objetivo
-                principal es optimziar el control de inventario.</p>
+                principal es optimziar el control de inventario.
+              </p>
+            <ul class="proyecto__program">
+            <li class="proyecto__program-item">JAVA</li>
+            <li class="proyecto__program-item">MySQL</li>
+            </ul>
             <a href="https://github.com/iFrethz/AlmacenTienda"
-            aria-label="Codigó"
+            aria-label="codigó"
             class="link link--icon"
         >
             <i aria-hidden="true" class="fab fa-github"></i>
